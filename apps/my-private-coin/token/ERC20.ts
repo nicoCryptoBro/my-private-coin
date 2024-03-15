@@ -2,8 +2,8 @@
 // OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/ERC20.sol)
 
 import {JSON} from "@klave/sdk"
-import {address, revert, emit} from "../../klave/types"
-import {Account} from "../../klave/ERC20/ERC20Structs"
+import {address, revert, emit} from "../klave/types"
+import {Account} from "../klave/ERC20/ERC20Structs"
 import {Context} from "@klave/sdk"
 import {IERC20, IERC20Events} from "./IERC20"
 import {IERC20Metadata} from "./extensions/IERC20Metadata";
