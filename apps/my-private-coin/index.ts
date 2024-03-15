@@ -1,5 +1,5 @@
 import { JSON, Ledger, Context } from "@klave/sdk"
-import { ERC20 } from "./token/ERC20/ERC20"
+import { ERC20 } from "./token/ERC20"
 import { emit } from "./klave/types"
 import { CreateInput, TransferInput, ApproveInput, TransferFromInput, AllowanceInput, IncreaseAllowanceInput, DecreaseAllowanceInput, MintInput, BurnInput } from "./klave/ERC20/ERC20RouteArgs";
 
