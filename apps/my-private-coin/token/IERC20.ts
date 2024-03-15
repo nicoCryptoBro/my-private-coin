@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 // Inspired by OpenZeppelin Contracts (last updated v5.0.0) (token/ERC20/IERC20.sol)
-import {address} from "../../klave/types"
-import {IERC20Errors} from "../../interfaces/draft-IERC6093";
+import {address} from "../klave/types"
+import {IERC20Errors} from "../interfaces/draft-IERC6093";
 
 export class IERC20Events extends IERC20Errors {
     /**
